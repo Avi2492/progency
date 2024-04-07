@@ -1,20 +1,9 @@
 import React from "react";
-import Navbar from "./components/header/Navbar";
-import Hero from "./components/hero/Hero";
-import Footer from "./components/footer/Footer";
-import Feature from "./components/feature/Feature";
-import Contact from "./components/contact/Contact";
+
+import PageLayout from "./layouts/pageLayout/PageLayout";
 
 const App = () => {
-  return (
-    <div>
-      <Navbar />
-      <Hero />
-      <Feature />
-      <Contact />
-      <Footer />
-    </div>
-  );
+  return <PageLayout />;
 };
 
 export default App;

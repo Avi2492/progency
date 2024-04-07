@@ -1,23 +1,29 @@
 import React from "react";
+import { RiMailLine, RiLinkedinFill, RiGithubFill } from "@remixicon/react";
+import { Link } from "react-router-dom";
+import Logo from "../logo/Logo";
 
 const Footer = () => {
   return (
-    <footer className="footer p-10 bg-neutral text-neutral-content">
-      <aside>
-        <p>progency</p>
-        <p>
-          ACME Industries Ltd.
-          <br />
-          Providing reliable tech since 1992
+    <footer className="flex footer items-center p-4 text-neutral-content justify-between bg-base-100">
+      <span className="text-2xl">
+        <Logo />
+      </span>
+      <div className="items-center grid-flow-col">
+        <p className="flex gap-2 items-center">
+          Copyright © 2024 - All right reserved by Progency
         </p>
-      </aside>
-      <nav>
-        <h6 className="footer-title">Social</h6>
-        <div className="grid grid-flow-col gap-4">
-          <p>FB</p>
-          <p>FB</p>
-          <p>FB</p>
-        </div>
+      </div>
+      <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+        <Link to={"mailto:avinashpandey2492002@gmail.com"}>
+          <RiMailLine />
+        </Link>
+        <Link to={"https://www.linkedin.com/in/avinash-pandey2492/"}>
+          <RiLinkedinFill />
+        </Link>
+        <Link to={"https://github.com/Avi2492"}>
+          <RiGithubFill />
+        </Link>
       </nav>
     </footer>
   );
