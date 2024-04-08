@@ -7,11 +7,12 @@ const PricePlans = () => {
         <div className="relative mx-auto max-w-7xl px-4">
           <div className="mx-auto mb-24 max-w-2xl text-center lg:max-w-5xl">
             <h1 className="mb-8 text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
-              Lorem ipsum dolor sit amet consectetur.
+              Our Pricing Plans
             </h1>
             <p className="text-lg text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
-              blanditiis.
+              Our pricing structure is designed to cater to a wide range of
+              needs and budgets, ensuring that you can find the perfect plan to
+              suit your requirements.
             </p>
           </div>
           <div className="mx-auto max-w-5xl">
@@ -19,7 +20,7 @@ const PricePlans = () => {
               <div className="w-full lg:-mr-2 lg:w-1/3">
                 <div className="mx-auto max-w-sm rounded-md border border-gray-200 bg-neutral-content pb-20 pl-5 pr-8 pt-6 lg:pb-8">
                   <span className="mb-2 block text-sm font-semibold text-base-200">
-                    BEGGINER
+                    BEGINER
                   </span>
                   <span className="flex items-end">
                     <span className="text-4xl font-extrabold leading-none text-base-200">
