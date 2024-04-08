@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="navbar bg-base-100">
       <div className="flex-1">
-        <Link className="text-3xl">
+        <Link className="text-xl">
           <Logo />
         </Link>
       </div>

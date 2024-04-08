@@ -8,7 +8,7 @@ import {
 
 const Feature = () => {
   return (
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 p-6">
+    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 p-6 bg-base-200">
       <div className="mx-auto max-w-xl text-center">
         <h2 className="mt-6 text-3xl font-bold leading-tightsm:text-4xl lg:text-5xl mb-2">
           Progency helps you build fast projects

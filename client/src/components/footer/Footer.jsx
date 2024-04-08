@@ -5,7 +5,7 @@ import Logo from "../logo/Logo";
 
 const Footer = () => {
   return (
-    <footer className="flex footer items-center p-4 text-neutral-content justify-between bg-base-100">
+    <footer className="flex footer items-center p-4 text-neutral-content justify-between bg-base-200">
       <span className="text-2xl">
         <Logo />
       </span>
