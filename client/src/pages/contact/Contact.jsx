@@ -25,7 +25,7 @@ const Contact = () => {
           <img
             alt="Contact us"
             className="hidden max-h-full w-[450px] rounded-lg object-cover lg:block"
-            src="../../../public/contact.png"
+            src="./../../../public/contact.png"
           />
         </div>
       </div>
