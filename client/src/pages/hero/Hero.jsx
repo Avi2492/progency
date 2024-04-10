@@ -4,8 +4,13 @@ import Typewriter from "typewriter-effect";
 const Hero = () => {
   return (
     <div className="relative w-full">
+<<<<<<< HEAD
       <div className="relative isolate z-0 bg-base-200 px-6 pt-18 lg:px-8">
         <div className="relative mx-auto max-w-4xl py-24">
+=======
+      <div className="relative isolate z-0 bg-base-200 px-6 pt-10 lg:px-8">
+        <div className="relative mx-auto max-w-4xl py-20">
+>>>>>>> 0ad3c4b25e62be5cbd93cadbcbb3141e8322eb82
           <div className="text-center">
             <h1 className="text-6xl font-bold tracking-tight sm:text-8xl">
               We are here to help and complete your
