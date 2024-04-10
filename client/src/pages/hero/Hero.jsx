@@ -6,7 +6,7 @@ import { RiQuestionAnswerLine } from "@remixicon/react";
 const Hero = () => {
   return (
     <div className="relative w-full">
-      <div className="relative isolate z-0 bg-base-200 px-6 pt-18 lg:px-8">
+      <div className="relative isolate z-0 bg-base-100 px-6 pt-18 lg:px-8">
         <div className="relative mx-auto max-w-4xl py-24">
           <div className="text-center">
             <h1 className="text-6xl font-bold tracking-tight sm:text-8xl">
