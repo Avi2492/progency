@@ -4,7 +4,7 @@ import { RiInstanceFill } from "@remixicon/react";
 const Logo = () => {
   return (
     <>
-      <p className="text-cyan-500 font-bold flex items-center">
+      <p className="text-cyan-500 font-bold flex items-center cursor-pointer">
         Pr
         <RiInstanceFill /> gency
       </p>
