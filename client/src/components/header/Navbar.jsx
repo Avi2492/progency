@@ -59,13 +59,13 @@ const Navbar = () => {
         <div className="hidden lg:block">
           <div className="flex gap-1 items-center">
             <Link to={"/"}>
-              <RiInstagramLine />
+              <RiInstagramLine size={30} />
             </Link>
             <Link to={"/"}>
-              <RiLinkedinLine />
+              <RiLinkedinLine size={30} />
             </Link>
             <Link to={"/"}>
-              <RiYoutubeLine />
+              <RiYoutubeLine size={30} />
             </Link>
           </div>
         </div>
@@ -108,13 +108,13 @@ const Navbar = () => {
                 </div>
                 <div className="flex gap-1 items-center">
                   <Link to={"/"}>
-                    <RiInstagramLine />
+                    <RiInstagramLine size={30} />
                   </Link>
                   <Link to={"/"}>
-                    <RiLinkedinLine />
+                    <RiLinkedinLine size={30} />
                   </Link>
                   <Link to={"/"}>
-                    <RiYoutubeLine />
+                    <RiYoutubeLine size={30} />
                   </Link>
                 </div>
               </div>

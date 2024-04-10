@@ -4,7 +4,7 @@ import Logo from "../../components/logo/Logo";
 const Testimonial = () => {
   return (
     <>
-      <div className="stats shadow flex justify-center items-center text-center">
+      <div className="stats shadow flex justify-around items-center text-center">
         <div className="stat">
           <div className="stat-figure text-cyan-500">
             <RiCodeBlock size={40} />
