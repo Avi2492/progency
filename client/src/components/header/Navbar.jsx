@@ -1,7 +1,13 @@
 import React from "react";
 import Logo from "../logo/Logo";
 import { Link } from "react-router-dom";
-import { RiMenuLine, RiCloseLine } from "@remixicon/react";
+import {
+  RiMenuLine,
+  RiCloseLine,
+  RiInstagramLine,
+  RiLinkedinLine,
+  RiYoutubeLine,
+} from "@remixicon/react";
 
 const menuItems = [
   {
@@ -50,7 +56,19 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        <div className="hidden lg:block">Social Media Icons</div>
+        <div className="hidden lg:block">
+          <div className="flex gap-1 items-center">
+            <Link to={"/"}>
+              <RiInstagramLine />
+            </Link>
+            <Link to={"/"}>
+              <RiLinkedinLine />
+            </Link>
+            <Link to={"/"}>
+              <RiYoutubeLine />
+            </Link>
+          </div>
+        </div>
         <div className="lg:hidden">
           <RiMenuLine onClick={toggleMenu} className="h-6 w-6 cursor-pointer" />
         </div>
@@ -88,7 +106,17 @@ const Navbar = () => {
                     ))}
                   </nav>
                 </div>
-                <button className="btn btn-info mt-4">Social Icons</button>
+                <div className="flex gap-1 items-center">
+                  <Link to={"/"}>
+                    <RiInstagramLine />
+                  </Link>
+                  <Link to={"/"}>
+                    <RiLinkedinLine />
+                  </Link>
+                  <Link to={"/"}>
+                    <RiYoutubeLine />
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

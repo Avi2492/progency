@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
+import { RiQuestionAnswerLine } from "@remixicon/react";
 
 const Hero = () => {
   return (
@@ -14,10 +16,10 @@ const Hero = () => {
               <Typewriter
                 options={{
                   strings: [
-                    "Semester Projects",
-                    "MOOC Courses",
-                    "Term Papers",
-                    "Research Papers",
+                    "Projects",
+                    "MOOC Courses Guidance",
+                    "Research Papers Guidance",
+                    "Professional Websites",
                   ],
                   autoStart: true,
                   loop: true,
@@ -31,9 +33,11 @@ const Hero = () => {
               unlock your full potential and excel in your educational journey.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-2">
-              <button className="btn btn-info text-white">
-                Talk to Our Team
-              </button>
+              <Link to={"https://alvo.chat/4h0s"}>
+                <button className="btn btn-info text-white">
+                  <RiQuestionAnswerLine /> Talk to Our Team
+                </button>
+              </Link>
             </div>
           </div>
         </div>

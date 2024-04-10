@@ -25,7 +25,7 @@ const Contact = () => {
           <img
             alt="Contact us"
             className="hidden max-h-full w-[450px] rounded-lg object-cover lg:block"
-            src="./../../../public/contact.png"
+            src="https://img.freepik.com/free-vector/flat-customer-support-illustration_23-2148899114.jpg?t=st=1712762546~exp=1712766146~hmac=0064168f516444ef3b51cc3c5c9f60290284b530c477d06396f41923f8893f6e&w=540"
           />
         </div>
       </div>

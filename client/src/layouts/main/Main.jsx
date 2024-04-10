@@ -10,7 +10,6 @@ const Main = () => {
   return (
     <>
       <Hero />
-      <PricePlans />
       <Feature />
       <Testimonial />
       <Contact />
