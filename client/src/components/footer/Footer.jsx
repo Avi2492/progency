@@ -18,7 +18,9 @@ const Footer = () => {
         <Link to={"mailto:avinashpandey2492002@gmail.com"}>
           <RiMailLine />
         </Link>
-        <Link to={"https://www.linkedin.com/in/avinash-pandey2492/"}>
+        <Link
+          to={"https://www.linkedin.com/in/progency-web-services-2210172b9/"}
+        >
           <RiLinkedinFill />
         </Link>
         <Link to={"https://github.com/Avi2492"}>

@@ -5,7 +5,7 @@ import {
   RiMenuLine,
   RiCloseLine,
   RiInstagramLine,
-  RiLinkedinLine,
+  RiLinkedinFill,
   RiYoutubeLine,
 } from "@remixicon/react";
 
@@ -58,13 +58,17 @@ const Navbar = () => {
         </div>
         <div className="hidden lg:block">
           <div className="flex gap-1 items-center">
-            <Link to={"/"}>
+            <Link to={"https://www.instagram.com/progency.web/"}>
               <RiInstagramLine size={30} />
             </Link>
-            <Link to={"/"}>
-              <RiLinkedinLine size={30} />
+            <Link
+              to={
+                "https://www.linkedin.com/in/progency-web-services-2210172b9/"
+              }
+            >
+              <RiLinkedinFill size={30} />
             </Link>
-            <Link to={"/"}>
+            <Link to={"https://www.youtube.com/@progency"}>
               <RiYoutubeLine size={30} />
             </Link>
           </div>
@@ -107,13 +111,17 @@ const Navbar = () => {
                   </nav>
                 </div>
                 <div className="flex gap-1 items-center">
-                  <Link to={"/"}>
+                  <Link to={"https://www.instagram.com/progency.web/"}>
                     <RiInstagramLine size={30} />
                   </Link>
-                  <Link to={"/"}>
+                  <Link
+                    to={
+                      "https://www.linkedin.com/in/progency-web-services-2210172b9/"
+                    }
+                  >
                     <RiLinkedinLine size={30} />
                   </Link>
-                  <Link to={"/"}>
+                  <Link to={"https://www.youtube.com/@progency"}>
                     <RiYoutubeLine size={30} />
                   </Link>
                 </div>

@@ -10,7 +10,7 @@ const Testimonial = () => {
             <RiCodeBlock size={40} />
           </div>
           <div className="stat-title">Total Projects</div>
-          <div className="stat-value text-cyan-500">10k+</div>
+          <div className="stat-value text-cyan-500">10+</div>
           <div className="stat-desc">21% more than last month</div>
         </div>
 
@@ -19,7 +19,7 @@ const Testimonial = () => {
             <RiFlashlightLine size={40} />
           </div>
           <div className="stat-title">Satisfied Students</div>
-          <div className="stat-value text-info">20k+</div>
+          <div className="stat-value text-info">100+</div>
           <div className="stat-desc">51% more than last month</div>
         </div>
 
@@ -28,8 +28,7 @@ const Testimonial = () => {
             <Logo />
           </div>
           <div className="stat-value">100%</div>
-          <div className="stat-title">Tasks done</div>
-          <div className="stat-desc">by us</div>
+          <div className="stat-title">Tasks done by us</div>
         </div>
       </div>
     </>
