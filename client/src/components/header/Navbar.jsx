@@ -82,7 +82,9 @@ const Navbar = () => {
               <div className="px-5 pb-6 pt-5">
                 <div className="flex items-center justify-between">
                   <div className="inline-flex items-center space-x-2">
-                    <Logo />
+                    <Link to={"/"}>
+                      <Logo />
+                    </Link>
                   </div>
                   <div className="-mr-2">
                     <button
@@ -110,7 +112,7 @@ const Navbar = () => {
                     ))}
                   </nav>
                 </div>
-                <div className="flex gap-1 items-center">
+                <div className="flex gap-1 items-center mt-4">
                   <Link to={"https://www.instagram.com/progency.web/"}>
                     <RiInstagramLine size={30} />
                   </Link>
@@ -119,7 +121,7 @@ const Navbar = () => {
                       "https://www.linkedin.com/in/progency-web-services-2210172b9/"
                     }
                   >
-                    <RiLinkedinLine size={30} />
+                    <RiLinkedinFill size={30} />
                   </Link>
                   <Link to={"https://www.youtube.com/@progency"}>
                     <RiYoutubeLine size={30} />
