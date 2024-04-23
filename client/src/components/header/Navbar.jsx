@@ -7,20 +7,21 @@ import {
   RiInstagramLine,
   RiLinkedinFill,
   RiYoutubeLine,
+  RiGithubLine,
 } from "@remixicon/react";
 
 const menuItems = [
   {
     name: "Projects",
-    to: "/projects",
+    to: "/",
   },
   {
     name: "Services",
-    to: "/services",
+    to: "/",
   },
   {
     name: "Contact Us",
-    to: "/contact",
+    to: "/",
   },
 ];
 
@@ -31,7 +32,7 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <div className="relative w-full bg-base-100">
+    <div className="relative w-full bg-base-100 py-2">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
         <div className="inline-flex items-center text-2xl space-x-2">
           <Link to={"/"}>
@@ -50,25 +51,16 @@ const Navbar = () => {
                 </Link>
               </li>
             ))}
+            <div className="hidden lg:block">
+              <div className="flex gap-1 items-center">
+                <Link to={"https://www.youtube.com/@progency"}>
+                  <RiGithubLine size={30} />
+                </Link>
+              </div>
+            </div>
           </ul>
         </div>
-        <div className="hidden lg:block">
-          <div className="flex gap-1 items-center">
-            <Link to={"https://www.instagram.com/progency.web/"}>
-              <RiInstagramLine size={30} />
-            </Link>
-            <Link
-              to={
-                "https://www.linkedin.com/in/progency-web-services-2210172b9/"
-              }
-            >
-              <RiLinkedinFill size={30} />
-            </Link>
-            <Link to={"https://www.youtube.com/@progency"}>
-              <RiYoutubeLine size={30} />
-            </Link>
-          </div>
-        </div>
+
         <div className="lg:hidden">
           <RiMenuLine onClick={toggleMenu} className="h-6 w-6 cursor-pointer" />
         </div>
@@ -109,18 +101,8 @@ const Navbar = () => {
                   </nav>
                 </div>
                 <div className="flex gap-1 items-center mt-4">
-                  <Link to={"https://www.instagram.com/progency.web/"}>
-                    <RiInstagramLine size={30} />
-                  </Link>
-                  <Link
-                    to={
-                      "https://www.linkedin.com/in/progency-web-services-2210172b9/"
-                    }
-                  >
-                    <RiLinkedinFill size={30} />
-                  </Link>
                   <Link to={"https://www.youtube.com/@progency"}>
-                    <RiYoutubeLine size={30} />
+                    <RiGithubLine size={30} />
                   </Link>
                 </div>
               </div>

@@ -3,8 +3,8 @@ import React from "react";
 const PricePlans = () => {
   return (
     <>
-      <section className="relative overflow-hidden py-10">
-        <div className="relative mx-auto max-w-7xl px-4">
+      <section className="relative overflow-hidden py-10 bg-base-200">
+        <div className="relative mx-auto max-w-7xl px-4 ">
           <div className="mx-auto mb-24 max-w-2xl text-center lg:max-w-5xl">
             <h1 className="mb-8 text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
               Our Pricing Plans

@@ -4,7 +4,7 @@ import { RiWhatsappLine } from "@remixicon/react";
 
 const Contact = () => {
   return (
-    <div className="mx-auto max-w-7xl px-4 bg-base-200">
+    <div className="mx-auto max-w-7xl px-4 bg-base-100">
       <div className="mx-auto max-w-7xl py-12 md:py-24">
         <div className="grid items-center justify-items-center gap-x-4 gap-y-10 lg:grid-cols-2">
           <div className="flex items-center justify-center">

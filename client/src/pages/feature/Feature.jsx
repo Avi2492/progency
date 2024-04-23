@@ -8,7 +8,7 @@ import {
 
 const Feature = () => {
   return (
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 p-6 bg-base-200">
+    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 p-6 bg-base-100">
       <div className="mx-auto max-w-xl text-center">
         <h2 className="mt-6 text-3xl font-bold leading-tightsm:text-4xl lg:text-5xl mb-2">
           Progency helps you build fast projects
@@ -19,7 +19,7 @@ const Feature = () => {
           papers.
         </p>
       </div>
-      <div className="mt-12 grid grid-cols-1 gap-y-8 text-center sm:grid-cols-2 sm:gap-12 lg:grid-cols-4 mb-6">
+      <div className="mt-12 grid grid-cols-1 gap-y-8 text-center sm:grid-cols-2 sm:gap-12 lg:grid-cols-3 mb-6">
         <div>
           <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gray-100">
             <RiLayout2Fill className="h-9 w-9 text-info" />
@@ -38,7 +38,7 @@ const Feature = () => {
             <RiOpenaiFill className="h-9 w-9 text-info" />
           </div>
           <h3 className="mt-8 text-lg font-semibold text-info">
-            AI & Machine Learning
+            AI & SAAS Products
           </h3>
           <p className="mt-4 text-sm text-gray-600">
             Empower your business with cutting-edge AI and ML solutions tailored
@@ -50,25 +50,12 @@ const Feature = () => {
             <RiGitPullRequestLine className="h-9 w-9 text-info" />
           </div>
           <h3 className="mt-8 text-lg font-semibold text-info">
-            IoT & Electronics
+            IoT & Robotics
           </h3>
           <p className="mt-4 text-sm text-gray-600">
             Transforming concepts into connected realities, our IoT project
             development services seamlessly integrate cutting-edge technology to
             deliver innovative solutions tailored to your needs.
-          </p>
-        </div>
-        <div>
-          <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gray-100">
-            <RiArticleFill className="h-9 w-9 text-info" />
-          </div>
-          <h3 className="mt-8 text-lg font-semibold text-info">
-            Term & Research Papers
-          </h3>
-          <p className="mt-4 text-sm text-gray-600">
-            Need help tackling your term papers? Our expert writers craft
-            top-notch papers tailored to your needs, ensuring academic success
-            and timely completion of courses.
           </p>
         </div>
       </div>

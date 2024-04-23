@@ -6,20 +6,21 @@ import { RiQuestionAnswerLine } from "@remixicon/react";
 const Hero = () => {
   return (
     <div className="relative w-full">
-      <div className="relative isolate z-0 bg-base-100 px-6 pt-18 lg:px-8">
+      <div className="relative isolate z-0 bg-base-200 px-6 pt-18 lg:px-8">
         <div className="relative mx-auto max-w-4xl py-24">
           <div className="text-center">
-            <h1 className="text-6xl font-bold tracking-tight sm:text-8xl">
-              We are here to help and complete your
+            <h1 className="text-4xl font-bold tracking-tight sm:text-7xl">
+              Empowering Digital Solutions for Your Business
             </h1>
-            <h2 className="text-5xl font-bold text-cyan-500 mt-2">
+            <h2 className="text-6xl font-bold text-cyan-500 mt-2">
               <Typewriter
                 options={{
                   strings: [
-                    "Projects",
-                    "MOOC Courses Guidance",
-                    "Research Papers Guidance",
-                    "Professional Websites",
+                    "Web Development.",
+                    "App Development.",
+                    "UI / UX Design.",
+                    "Logo Design.",
+                    "We do it all.",
                   ],
                   autoStart: true,
                   loop: true,
@@ -27,10 +28,11 @@ const Hero = () => {
               />
             </h2>
 
-            <p className="mt-6 text-lg leading-8 text-gray-400">
-              Our dedicated team offers invaluable support, guiding individuals
-              towards academic success and professional growth. Join us to
-              unlock your full potential and excel in your educational journey.
+            <p className="mt-6 text-lg leading-8 text-gray-400 font-medium">
+              Welcome to <span className="text-cyan-500">Progency</span>, where
+              creativity meets technology. We're a team of innovative designers,
+              developers, and strategists dedicated to transforming your visions
+              into reality
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-2">
               <Link to={"https://alvo.chat/4h0s"}>
