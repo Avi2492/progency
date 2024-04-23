@@ -24,31 +24,6 @@ const OurTeam = () => {
                 }}
               >
                 <img
-                  src="https://media.licdn.com/dms/image/D4D03AQE0H95tVygWCQ/profile-displayphoto-shrink_400_400/0/1712671857744?e=1718236800&v=beta&t=5JojxDrLaKGyqao8E8bTbiZpZFT-mAXGE3qBkLvpohQ"
-                  alt=""
-                  className="z-0 h-full w-full rounded-[10px] object-cover"
-                />
-                <div className="absolute bottom-4 left-4">
-                  <h1 className="text-xl font-bold text-black">
-                    Aryan Kumar Singh
-                  </h1>
-                  <h6 className="text-base font-semibold text-black">
-                    Mentor at IIT's
-                  </h6>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex flex-col items-center text-start">
-              <div
-                className="relative flex h-[342px] w-full flex-col justify-end rounded-[10px] bg-red-300"
-                style={{
-                  backgroundPosition: "center",
-                  backgroundSize: "cover",
-                  backgroundRepeat: "no-repeat",
-                }}
-              >
-                <img
                   src="https://media.licdn.com/dms/image/D4D03AQE4-CQwv6cbUw/profile-displayphoto-shrink_400_400/0/1697217256521?e=1718236800&v=beta&t=M9tZ9u1-Pm5mFdtOuwqqf1EgRjtqMLuh0uatKdEcTTM"
                   alt=""
                   className="z-0 h-full w-full rounded-[10px] object-cover"

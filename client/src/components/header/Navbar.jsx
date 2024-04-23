@@ -15,10 +15,6 @@ const menuItems = [
     to: "/projects",
   },
   {
-    name: "Our Team",
-    to: "/team",
-  },
-  {
     name: "Services",
     to: "/services",
   },

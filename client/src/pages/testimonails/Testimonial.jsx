@@ -11,16 +11,14 @@ const Testimonial = () => {
           </div>
           <div className="stat-title">Total Projects</div>
           <div className="stat-value text-cyan-500">10+</div>
-          <div className="stat-desc">21% more than last month</div>
         </div>
 
         <div className="stat">
           <div className="stat-figure text-info">
             <RiFlashlightLine size={40} />
           </div>
-          <div className="stat-title">Satisfied Students</div>
+          <div className="stat-title">Satisfied Clients</div>
           <div className="stat-value text-info">100+</div>
-          <div className="stat-desc">51% more than last month</div>
         </div>
 
         <div className="stat">
