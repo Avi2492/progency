@@ -29,10 +29,10 @@ const Hero = () => {
             </h2>
 
             <p className="mt-6 text-lg leading-8 text-gray-400 font-medium">
-              Welcome to <span className="text-cyan-500">Progency</span>, where
-              creativity meets technology. We're a team of innovative designers,
-              developers, and strategists dedicated to transforming your visions
-              into reality
+              Welcome to <span className="text-cyan-500">SpheriSoft</span>,
+              where creativity meets technology. We're a team of innovative
+              designers, developers, and strategists dedicated to transforming
+              your visions into reality
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-2">
               <Link to={"https://alvo.chat/4h0s"}>
