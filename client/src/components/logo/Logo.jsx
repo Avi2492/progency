@@ -5,8 +5,7 @@ const Logo = () => {
   return (
     <>
       <p className="text-cyan-500 font-bold flex items-center cursor-pointer">
-        Pr
-        <RiInstanceFill /> gency
+        SpheriSoft
       </p>
     </>
   );
