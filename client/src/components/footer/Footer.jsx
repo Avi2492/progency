@@ -11,7 +11,7 @@ const Footer = () => {
       </span>
       <div className="items-center grid-flow-col">
         <p className="flex gap-2 items-center">
-          Copyright © 2024 - All right reserved by Progency
+          Copyright © 2024 - All right reserved by SpheriSoft
         </p>
       </div>
       <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
