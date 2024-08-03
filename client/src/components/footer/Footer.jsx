@@ -5,28 +5,21 @@ import Logo from "../logo/Logo";
 
 const Footer = () => {
   return (
-    <footer className="flex footer items-center p-4 text-neutral-content justify-between bg-base-200">
+    <footer className="flex items-center p-4 text-neutral-content justify-between">
       <span className="text-2xl">
         <Logo />
       </span>
-      <div className="items-center grid-flow-col">
-        <p className="flex gap-2 items-center">
-          Copyright © 2024 - All right reserved by SpheriSoft
-        </p>
-      </div>
-      <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+      <div className="flex gap-1">
         <Link to={"mailto:avinashpandey2492002@gmail.com"}>
           <RiMailLine />
         </Link>
-        <Link
-          to={"https://www.linkedin.com/in/progency-web-services-2210172b9/"}
-        >
+        <Link to={"www.linkedin.com/in/avinash-pandey2492"}>
           <RiLinkedinFill />
         </Link>
         <Link to={"https://github.com/Avi2492"}>
           <RiGithubFill />
         </Link>
-      </nav>
+      </div>
     </footer>
   );
 };

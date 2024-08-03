@@ -1,10 +1,9 @@
-import Main from "../main/Main";
+import Hero from "../../pages/hero/Hero";
 
-import { Outlet } from "react-router-dom";
 const PageLayout = () => {
   return (
     <>
-      <Main />
+      <Hero />
     </>
   );
 };
