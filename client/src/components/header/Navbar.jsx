@@ -1,14 +1,7 @@
 import React from "react";
 import Logo from "../logo/Logo";
 import { Link } from "react-router-dom";
-import {
-  RiMenuLine,
-  RiCloseLine,
-  RiInstagramLine,
-  RiLinkedinFill,
-  RiYoutubeLine,
-  RiGithubLine,
-} from "@remixicon/react";
+import { RiMenuLine, RiCloseLine } from "@remixicon/react";
 
 const menuItems = [
   {
@@ -46,7 +39,7 @@ const Navbar = () => {
                 <li key={item.name}>
                   <Link
                     to={item.to}
-                    className="font-semibold text-black text-xl hover:text-orange-500 cursor-pointer hover:underline"
+                    className="font-semibold text-black text-xl hover:text-blue-500 cursor-pointer hover:underline"
                   >
                     {item.name}
                   </Link>
@@ -90,7 +83,7 @@ const Navbar = () => {
                           to={item.to}
                           className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold"
                         >
-                          <span className="ml-3 font-bold text-lg text-orange-500 hover:text-orange-600 hover:underline">
+                          <span className="ml-3 font-bold text-lg text-blue-500 hover:text-blue-600 hover:underline">
                             {item.name}
                           </span>
                         </Link>

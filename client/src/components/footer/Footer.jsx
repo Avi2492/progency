@@ -9,17 +9,6 @@ const Footer = () => {
       <span className="text-2xl">
         <Logo />
       </span>
-      <div className="flex gap-1">
-        <Link to={"mailto:avinashpandey2492002@gmail.com"}>
-          <RiMailLine />
-        </Link>
-        <Link to={"www.linkedin.com/in/avinash-pandey2492"}>
-          <RiLinkedinFill />
-        </Link>
-        <Link to={"https://github.com/Avi2492"}>
-          <RiGithubFill />
-        </Link>
-      </div>
     </footer>
   );
 };
