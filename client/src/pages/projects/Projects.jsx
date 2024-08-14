@@ -1,6 +1,7 @@
 import { RiExternalLinkLine } from "@remixicon/react";
 import React from "react";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const posts = [
   {
@@ -29,13 +30,16 @@ const posts = [
 const Projects = () => {
   return (
     <>
-      <div className="mx-auto max-w-7xl px-2 mb-20">
-        <div className="flex flex-col space-y-8 pb-10 pt-8 md:pt-24 justify-center items-center text-center">
-          <h2 className="text-5xl font-bold text-center mb-10 text-black">
-            Projects We have{" "}
-            <span className="text-orange-500 font-bold">Worked On!</span>{" "}
-          </h2>
-        </div>
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.8 }}
+        className="mb-20 mt-20"
+      >
+        <h2 className="text-5xl font-bold text-center mb-10 text-black">
+          Projects We have{" "}
+          <span className="text-orange-500 font-bold">Worked On!</span>{" "}
+        </h2>
 
         <div className="grid gap-6 gap-y-10 py-6 md:grid-cols-2 lg:grid-cols-3">
           {posts.map((post) => (
@@ -63,7 +67,7 @@ const Projects = () => {
             </div>
           ))}
         </div>
-      </div>
+      </motion.div>
       <hr />
     </>
   );
