@@ -1,3 +1,4 @@
+import { RiExternalLinkLine } from "@remixicon/react";
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -6,21 +7,21 @@ const posts = [
     title: "Replibot - Anonymous Message Platform",
     description:
       "Receive spontaneous and unbiased feedback on any subject to spark creativity and enhance your projects. Perfect for fresh perspectives and constructive insights.",
-    poster: "../public/replibot.png",
+    poster: "../../public/replibot.png",
     weblink: "https://replibot.vercel.app/",
   },
   {
     title: "Moviesplixer - A movie and series web app",
     description:
       "Moviesplixer, where your streaming experience is personalized and seamless. Our platform boasts a range of features designed to enhance your enjoyment of movies.",
-    poster: "../public/movieplixer.png",
+    poster: "../../public/movieplixer.png",
     weblink: "https://moviesplixer.vercel.app/",
   },
   {
     title: "Carenow - Doctor appointment booking app",
     description:
       "CareNow is a comprehensive doctor's appointment app designed to connect patients with healthcare providers seamlessly.",
-    poster: "../public/carenow.png",
+    poster: "../../public/carenow.png",
     weblink: "https://carenow.vercel.app/",
   },
 ];
@@ -28,11 +29,14 @@ const posts = [
 const Projects = () => {
   return (
     <>
-      <div className="mx-auto max-w-7xl px-2">
+      <div className="mx-auto max-w-7xl px-2 mb-20">
         <div className="flex flex-col space-y-8 pb-10 pt-8 md:pt-24 justify-center items-center text-center">
-          <p className="text-3xl font-bold text-blue-500 md:text-5xl md:leading-10">
-            Projects Done So Far
-          </p>
+          <h2 className="text-5xl font-bold text-center mb-10 text-black">
+            Projects We have{" "}
+            <span className="text-orange-500 bg-clip-text text-transparent font-bold">
+              Worked On!
+            </span>{" "}
+          </h2>
         </div>
 
         <div className="grid gap-6 gap-y-10 py-6 md:grid-cols-2 lg:grid-cols-3">
@@ -53,8 +57,8 @@ const Projects = () => {
               </div>
               <div className="mb-2 flex justify-center">
                 <Link to={post.weblink}>
-                  <button className="bg-blue-500 text-white p-1 rounded-lg cursor-pointer">
-                    Code
+                  <button className="bg-gradient-to-br from-orange-300 to-orange-600 text-white p-1 rounded-lg cursor-pointer flex gap-2 py-1 px-2">
+                    <RiExternalLinkLine size={24} /> Live
                   </button>
                 </Link>
               </div>

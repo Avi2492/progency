@@ -3,8 +3,8 @@
 const Logo = () => {
   return (
     <>
-      <p className="font-bold flex items-center cursor-pointer">
-        <span className="text-gray-900">solution.</span>
+      <p className="text-2xl font-bold flex items-center cursor-pointer">
+        spheri<span className="text-orange-500">soft</span>
       </p>
     </>
   );
