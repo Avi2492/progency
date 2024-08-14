@@ -14,9 +14,7 @@ const Features = () => {
       >
         <h2 className="text-5xl font-bold text-center mb-10 text-black">
           Why Choose{" "}
-          <span className="text-orange-500 bg-clip-text text-transparent font-bold">
-            spherisoft?
-          </span>{" "}
+          <span className="text-orange-500 font-bold">spherisoft?</span>{" "}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {benefits.map((benefit, index) => (

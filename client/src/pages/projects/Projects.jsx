@@ -7,21 +7,21 @@ const posts = [
     title: "Replibot - Anonymous Message Platform",
     description:
       "Receive spontaneous and unbiased feedback on any subject to spark creativity and enhance your projects. Perfect for fresh perspectives and constructive insights.",
-    poster: "../../public/replibot.png",
+    poster: "../public/replibot.jpg",
     weblink: "https://replibot.vercel.app/",
   },
   {
     title: "Moviesplixer - A movie and series web app",
     description:
       "Moviesplixer, where your streaming experience is personalized and seamless. Our platform boasts a range of features designed to enhance your enjoyment of movies.",
-    poster: "../../public/movieplixer.png",
+    poster: "../public/movieplixer.jpg",
     weblink: "https://moviesplixer.vercel.app/",
   },
   {
     title: "Carenow - Doctor appointment booking app",
     description:
       "CareNow is a comprehensive doctor's appointment app designed to connect patients with healthcare providers seamlessly.",
-    poster: "../../public/carenow.png",
+    poster: "../public/carenow.jpg",
     weblink: "https://carenow.vercel.app/",
   },
 ];
@@ -33,9 +33,7 @@ const Projects = () => {
         <div className="flex flex-col space-y-8 pb-10 pt-8 md:pt-24 justify-center items-center text-center">
           <h2 className="text-5xl font-bold text-center mb-10 text-black">
             Projects We have{" "}
-            <span className="text-orange-500 bg-clip-text text-transparent font-bold">
-              Worked On!
-            </span>{" "}
+            <span className="text-orange-500 font-bold">Worked On!</span>{" "}
           </h2>
         </div>
 
