@@ -7,21 +7,21 @@ const posts = [
     title: "Replibot - Anonymous Message Platform",
     description:
       "Receive spontaneous and unbiased feedback on any subject to spark creativity and enhance your projects. Perfect for fresh perspectives and constructive insights.",
-    poster: "../../public/replibot.jpg",
+    poster: "/replibot.jpg",
     weblink: "https://replibot.vercel.app/",
   },
   {
     title: "Moviesplixer - A movie and series web app",
     description:
       "Moviesplixer, where your streaming experience is personalized and seamless. Our platform boasts a range of features designed to enhance your enjoyment of movies.",
-    poster: "../../public/movieplixer.jpg",
+    poster: "/movieplixer.jpg",
     weblink: "https://moviesplixer.vercel.app/",
   },
   {
     title: "Carenow - Doctor appointment booking app",
     description:
       "CareNow is a comprehensive doctor's appointment app designed to connect patients with healthcare providers seamlessly.",
-    poster: "../../public/carenow.jpg",
+    poster: "/carenow.jpg",
     weblink: "https://carenow.vercel.app/",
   },
 ];
