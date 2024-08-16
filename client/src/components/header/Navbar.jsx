@@ -19,7 +19,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="fixed top-0 right-0 z-50 py-2 bg-gray-50 w-full shadow-md">
+      <div className="fixed top-0 right-0 z-50 py-2 w-full backdrop-blur-md border-b shadow-lg bg-gray-50/70">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
           <div className="inline-flex items-center text-2xl space-x-2">
             <Link to={"/"}>
