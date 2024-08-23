@@ -5,22 +5,21 @@ import Logo from "../logo/Logo";
 
 const Footer = () => {
   return (
-    <div className="mx-auto max-w-7xl">
-      <footer className="px-4 py-10">
-        <div className="flex flex-col md:flex-row md:items-center justify-center">
+    <div className="mx-auto w-full">
+      <footer className="px-6 py-10">
+        <div className="flex flex-col md:flex-row md:items-center justify-between">
           <Link to={"/"}>
             <Logo />
           </Link>
-          <div className="mt-4 grow md:ml-12 md:mt-0">
-            <p className="text-base font-semibold text-gray-700">
-              All © reserved 2024 Made with ❤️
-            </p>
-          </div>
+
+          <p className="text-base font-semibold text-gray-700">
+            All © reserved 2024 Made with ❤️
+          </p>
         </div>
-        <div className="mt-16 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <div className="mb-8 lg:mb-0">
-            <p className="mb-6 text-lg font-semibold text-gray-700">Company</p>
-            <ul className="flex flex-col space-y-4 text-[14px] font-medium text-gray-500">
+            <p className="mb-6 text-xl font-bold text-orange-500">Company</p>
+            <ul className="flex flex-col space-y-4 text-lg font-medium text-gray-500">
               <li>About us</li>
               <li>Company History</li>
               <li>Our Team</li>
@@ -29,17 +28,17 @@ const Footer = () => {
           </div>
 
           <div className="mb-8 lg:mb-0">
-            <p className="mb-6 text-lg font-semibold text-gray-700">Services</p>
-            <ul className="flex flex-col space-y-4 text-[14px] font-medium text-gray-500">
+            <p className="mb-6 text-xl font-bold text-orange-500">Services</p>
+            <ul className="flex flex-col space-y-4 text-lg font-medium text-gray-500">
               <li>UI / UX Design</li>
               <li>App Development</li>
-              <li>API reference</li>
-              <li>API status</li>
+              <li>Digital Marketing</li>
+              <li>Website Development</li>
             </ul>
           </div>
           <div className="mb-8 lg:mb-0">
-            <p className="mb-6 text-lg font-semibold text-gray-700">Legal</p>
-            <ul className="flex flex-col space-y-4 text-[14px] font-medium text-gray-500">
+            <p className="mb-6 text-xl font-bold text-orange-500">Legal</p>
+            <ul className="flex flex-col space-y-4 text-lg font-medium text-gray-500">
               <li>Privacy Policy</li>
               <li>Terms of Service</li>
               <li>Cookie Policy</li>
@@ -47,11 +46,11 @@ const Footer = () => {
             </ul>
           </div>
           <div className="mb-8 lg:mb-0">
-            <p className="mb-6 text-lg font-semibold text-gray-700">
+            <p className="mb-6 text-xl font-bold text-orange-500">
               Social Links
             </p>
-            <ul className="flex flex-col space-y-4 text-[14px] font-medium text-gray-500">
-              <li>Facebook</li>
+            <ul className="flex flex-col space-y-4 text-lg font-medium text-gray-500">
+              <li>Email</li>
               <li>Twitter</li>
               <li>Instagram</li>
               <li>Linkedin</li>

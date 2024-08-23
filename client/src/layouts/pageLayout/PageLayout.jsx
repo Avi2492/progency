@@ -3,6 +3,7 @@ import Hero from "../../pages/hero/Hero";
 import Projects from "../../pages/projects/Projects";
 import Features from "../../pages/features/Features";
 import ServicePage from "../../pages/services/ServicePage";
+import Contact from "../../pages/contact/Contact";
 
 const PageLayout = () => {
   return (
@@ -11,9 +12,11 @@ const PageLayout = () => {
       <Outlet />
       <ServicePage />
       <Outlet />
+      <Features />
+      <Outlet />
       <Projects />
       <Outlet />
-      <Features />
+      <Contact />
     </>
   );
 };

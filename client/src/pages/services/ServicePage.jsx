@@ -10,22 +10,23 @@ const ServicePage = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.8 }}
-        className="mb-20 mt-20"
+        className="mx-auto max-w-7xl px-4"
       >
-        <h2 className="text-5xl font-bold text-center mb-10 text-black">
-          Services that we will{" "}
-          <span className="text-orange-500 font-bold">providing ?</span>{" "}
-        </h2>
+        <div className="flex flex-col space-y-6 pb-8 pt-8">
+          <p className="flex items-center justify-center gap-2 text-3xl font-bold text-gray-900 md:text-5xl md:leading-10">
+            Services that we will{" "}
+            <span className="text-orange-500 font-bold">providing ?</span>
+          </p>
+          <p className="mx-auto max-w-5xl text-center text-base text-gray-600 md:text-xl">
+            At Spherisoft, we offer a comprehensive range of digital services
+            designed to help your business thrive in today’s competitive
+            landscape. Our expertise spans across multiple areas, ensuring that
+            all your digital needs are met under one roof.
+          </p>
+        </div>
 
         <div className="mx-auto max-w-7xl px-2 md:px-4">
           <div>
-            <div className="mx-auto flex max-w-5xl flex-col space-y-8 pb-4 pt-4">
-              <p className="text-center text-base text-gray-600 md:text-xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                veritatis voluptates neque itaque repudiandae sint, explicabo
-                assumenda quam ratione placeat?
-              </p>
-            </div>
             <div className="mt-8 space-y-4 md:mt-12">
               <div className="grid space-y-8 md:grid-cols-2 md:gap-6 md:space-y-0 lg:grid-cols-3 lg:space-x-8">
                 {SERVICE_PLANS.map((plan) => (
@@ -68,7 +69,7 @@ const ServicePage = () => {
           </div>
         </div>
       </motion.div>
-      <hr />
+      <hr className="mt-16" />
     </>
   );
 };
