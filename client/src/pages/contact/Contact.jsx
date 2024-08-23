@@ -127,7 +127,7 @@ const Contact = () => {
             <img
               alt="Contact us"
               className="hidden max-h-full w-full rounded-lg object-cover lg:block"
-              src="./contact.svg"
+              src="/contact.svg"
             />
           </div>
         </div>
