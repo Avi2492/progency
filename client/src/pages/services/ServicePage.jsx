@@ -13,7 +13,7 @@ const ServicePage = () => {
         className="mx-auto max-w-7xl px-4"
       >
         <div className="flex flex-col space-y-6 pb-8 pt-8">
-          <p className="flex items-center justify-center gap-2 text-3xl font-bold text-gray-900 md:text-5xl md:leading-10">
+          <p className="text-center text-3xl font-bold text-gray-900 md:text-5xl md:leading-10">
             Services that we will{" "}
             <span className="text-orange-500 font-bold">providing ?</span>
           </p>
