@@ -1,13 +1,31 @@
 import React from "react";
 import Logo from "../logo/Logo";
 import { Link } from "react-router-dom";
-import { RiMenuLine, RiCloseLine, RiGithubLine } from "@remixicon/react";
+import {
+  RiMenuLine,
+  RiCloseLine,
+  RiGithubLine,
+  RiInstagramLine,
+  RiLinkedinLine,
+  RiFacebookLine,
+} from "@remixicon/react";
 
 const menuItems = [
   {
-    name: "Star us",
     to: "https://github.com/Avi2492",
     icon: RiGithubLine,
+  },
+  {
+    to: "https://www.linkedin.com/company/spherisoft/",
+    icon: RiLinkedinLine,
+  },
+  {
+    to: "https://www.facebook.com/profile.php?id=61564196824423&mibextid=ZbWKwL",
+    icon: RiFacebookLine,
+  },
+  {
+    to: "https://www.instagram.com/spherisoft?igsh=c3AxaGZ3NTRoYXQ4",
+    icon: RiInstagramLine,
   },
 ];
 
@@ -27,14 +45,15 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="hidden lg:block">
-            <ul className="inline-flex space-x-8">
-              {menuItems.map((item) => (
-                <li key={item.name}>
+            <ul className="inline-flex space-x-8 justify-center items-center">
+              {/* Follow Us */}
+              {menuItems.map((item, id) => (
+                <li key={id}>
                   <Link
                     to={item.to}
-                    className="text-white font-semibold bg-gradient-to-br from-orange-300 to-orange-600 text-xl cursor-pointer  rounded-lg px-2 py-2 flex items-center gap-2"
+                    className="text-white bg-gradient-to-br from-orange-300 to-orange-600 text-xl cursor-pointer  rounded-full p-1 flex items-center font-bold"
                   >
-                    🌟 {item.name} <item.icon />
+                    <item.icon size={24} />
                   </Link>
                 </li>
               ))}
@@ -65,15 +84,20 @@ const Navbar = () => {
                     </div>
                   </div>
                   <div>
-                    <nav className="grid gap-y-4">
+                    <div className="flex justify-center mb-4">
+                      <Link to={"/"}>
+                        <Logo />
+                      </Link>
+                    </div>
+                    <nav className="flex gap-2 justify-center">
                       {menuItems.map((item) => (
                         <Link
                           key={item.name}
                           to={item.to}
                           className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold"
                         >
-                          <span className="text-white font-semibold bg-gradient-to-br from-orange-300 to-orange-600 text-xl cursor-pointer  rounded-lg px-2 py-2 flex items-center gap-2">
-                            🌟 {item.name} <item.icon />
+                          <span className="text-white font-bold bg-gradient-to-br from-orange-300 to-orange-600 text-xl cursor-pointer  rounded-full px-2 py-2 flex items-center gap-2">
+                            <item.icon size={24} />
                           </span>
                         </Link>
                       ))}
