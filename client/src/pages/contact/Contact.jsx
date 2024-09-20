@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { RiSendPlaneLine } from "@remixicon/react";
 import Typewriter from "typewriter-effect";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -115,11 +116,17 @@ const Contact = () => {
                       rows={5}
                     />
                   </div>
+
                   <button
                     type="button"
                     className="flex justify-center items-center gap-2 w-full rounded-md px-3 py-2 font-bold text-white shadow-sm text-xl hover:bg-orange-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-500 bg-gradient-to-br from-orange-300 to-orange-600"
                   >
-                    Send Message <RiSendPlaneLine size={24} />
+                    <Link
+                      to={"https://wa.link/fdsf4w"}
+                      className="flex gap-1 items-center"
+                    >
+                      Send Message <RiSendPlaneLine size={24} />
+                    </Link>
                   </button>
                 </form>
               </div>

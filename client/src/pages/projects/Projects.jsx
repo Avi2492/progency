@@ -25,6 +25,27 @@ const posts = [
     poster: "/carenow.jpg",
     weblink: "https://carenow.vercel.app/",
   },
+  {
+    title: "Brainwave - An AI saas Landing Page",
+    description:
+      "Explore the Possibilities of AI Chatting with BrainwaveCurve Unleash the power of AI within Brainwave. Upgrade your productivity with Brainwave, the open AI chat app.",
+    poster: "/brainwave.png",
+    weblink: "https://brainwavesaas.vercel.app/",
+  },
+  {
+    title: "Portfolio - A professional 3D Portfolio",
+    description:
+      "Looking to build trust with potential clients and attract new opportunities? Create a professional portfolio that highlights your expertise and sets you apart. ",
+    poster: "/portfolio.png",
+    weblink: "https://avinashpandey.vercel.app/",
+  },
+  {
+    title: "XORA - An AI based Video Editing Platform",
+    description:
+      "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
+    poster: "/xora.png",
+    weblink: "https://carenow.vercel.app/",
+  },
 ];
 
 const Projects = () => {

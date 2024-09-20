@@ -12,8 +12,8 @@ const Features = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="mx-auto max-w-7xl px-4"
       >
-        <div className="flex flex-col space-y-6 pb-10 pt-16">
-          <p className="flex items-center justify-center gap-2 text-3xl font-bold text-gray-900 md:text-5xl md:leading-10">
+        <div className="flex flex-col space-y-8 pb-10 pt-12 md:pt-24">
+          <p className="text-center text-3xl font-bold text-gray-900 md:text-5xl md:leading-10">
             Why Choose{" "}
             <span className="text-orange-500 font-bold">spherisoft ?</span>
           </p>
